@@ -1,0 +1,18 @@
+#Set homepage
+DirectoryIndex install.php index.php
+
+#Disable directory listing
+Options -Indexes
+
+#Rewrite
+RewriteEngine on
+RewriteBase /namthangtourist/
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.jpeg|\.gif|robots\.txt|\.eot|\.ttf|\.woff|\.woff2|\.svg)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?params=$1 [NC,QSA]
+RewriteRule ^([^\.]+)/$ $1.php [NC,N]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#Static page trick
+ErrorDocument 404 index

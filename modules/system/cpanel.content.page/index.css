@@ -1,0 +1,27 @@
+.tables td {
+	word-wrap:break-word;
+	white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+}
+
+.module-addnew-btn {
+	float: right;
+}
+
+.form-tables {
+	clear: both;
+}
+
+.page-search-textbox {
+	margin-right: 20px;
+	width: 300px;
+}
+
+.buttons {
+	margin-right: 20px;
+}
+
+.mini-buttons {
+	margin-right: 5px;
+}

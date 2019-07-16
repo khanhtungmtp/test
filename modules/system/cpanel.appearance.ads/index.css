@@ -1,0 +1,100 @@
+.slide-list li {
+	margin-bottom: 20px;
+	list-style: none;
+	width: 462px;
+}
+
+.placeholder {
+	border: 1px dashed #009163 !important;
+	max-width: 450px;
+	border-radius: 10px;
+}
+
+.slide-caret {
+	display: inline-block;
+	float: left;
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.slide-name {
+	display: inline-block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 41px;
+    cursor: move;
+    width: 400px;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+}
+
+.slide-delete {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 40px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.form-tables {
+	width: 100%;
+}
+
+.slide-list ol:before {
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 1px;
+	clear: both;
+}
+
+.slide-list li > div {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+.slide-list li img {
+	max-width: 250px;
+	
+}
+
+.slide-list ol {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.slide-list li > div > div {
+	display: none;
+}
+
+.slide-name:focus {
+	outline: none;
+}
+
+.slide-delete:hover {
+	background-color: #d32a00;
+	color: #ffffff;
+	border-color: #d32a00;
+}
+
+.slider-addnew-btn {
+	margin-right: 20px;
+}
+
+.save-btn {
+	float: right;
+}

@@ -1,0 +1,36 @@
+.tables td:nth-child(3),
+.tables td:last-child {
+	width: 15%;
+}
+
+.tables td:nth-child(2) {
+	width: 40%;
+ 	text-overflow: ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.comment-search-textbox {
+	margin-right: 20px;
+	width: 300px;
+}
+
+.buttons {
+	margin-right: 20px;
+}
+
+.block {
+	text-decoration: line-through;
+	-webkit-user-select: none;
+	   -moz-user-select: none;	
+		-ms-user-select: none;
+			user-select: none;
+}
+
+.tables a {
+	color: #08afdd;
+}
+
+.tables a:hover {
+	text-decoration: underline;
+}

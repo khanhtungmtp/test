@@ -1,0 +1,18 @@
+---
+#########################################################################
+# This Yaml is an important configuration for each module
+# This Yaml is created by TAKA+ automatically
+# This Yaml is in UTF-8 encoding, so you can change 'description' by your way
+# in Vietnamese
+# Do not edit / delete / rename or anything else in stuck
+#########################################################################
+  module_name: autho
+  module_code: TKP_MOD_01
+  module_version: 1.0.0
+  module_active: active
+  module_type: shape
+  module_info: 
+    coder: Tu Tran
+    date: 30.10.16
+    email: tuttran@taka.com.vn
+    description: Shape of autho.changepass, autho.login, autho.resetpass

@@ -1,0 +1,62 @@
+.tables td:first-child {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.module-addnew-btn {
+	float: right;
+}
+
+.post-search-textbox {
+	margin-right: 20px;
+	width: 300px;
+}
+
+.buttons {
+	margin-right: 20px;
+}
+
+.post-selected,
+.tag-selected {
+	margin: 10px 0;
+	border: 1px solid #dddddd;
+	padding: 20px;
+	border-radius: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.post-selected span ,
+.tag-selected span {
+	padding: 10px;
+	background-color: #f2f2f2;
+	margin: 0 10px 10px 0;
+	display: block;
+	float: left;
+	border-radius: 5px;
+	color: #515151;
+	font-size: 14px;
+}
+
+.post-selected span i,
+.tag-selected span i {
+	cursor: pointer;
+	color: #e62e04;
+}
+
+a {
+	color: #515151;
+}
+
+.mini-buttons {
+	margin-right: 10px;
+}
+
+.old-img {
+	width: 250px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}

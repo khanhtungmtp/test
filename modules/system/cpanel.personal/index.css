@@ -1,0 +1,15 @@
+.save-btn {
+	float: right;
+}
+
+.form-tables {
+	clear: both;
+}
+
+.hide {
+	display: none;
+}
+
+.noti td {
+	color: red;
+}

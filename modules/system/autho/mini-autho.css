@@ -1,0 +1,197 @@
+/*Reset CSS
+================================================*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Login
+===============================================*/
+
+.login-container,
+.resetpass-container,
+.changepass-container {
+	width: 100%;
+}
+
+.login-logo-wrapper,
+.resetpass-logo-wrapper,
+.changepass-logo-wrapper {
+	width: 100%;
+	height: 45px;
+	background-color: #009163;
+	color: #fff;
+}
+
+.login-logo,
+.resetpass-logo,
+.changepass-logo {
+	line-height: 45px;
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 50px;
+}
+
+.login-wrapper,
+.resetpass-wrapper,
+.changepass-wrapper {
+	width: 400px;
+	border: 3px solid #009163;
+	margin: 100px auto;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+#login-status,
+#resetpass-status,
+#changepass-status {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 20px;
+	background: red;
+	padding: 10px 20px;
+	display: none;
+}
+
+#changepass-status a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#resetpass-status.success,
+#changepass-status.success {
+	background: green !important;
+}
+
+#login-status .fa,
+#resetpass-status .fa,
+#changepass-status .fa {
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.login-title,
+.resetpass-title,
+.changepass-title {
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #009163;
+	margin-bottom: 20px;
+}
+
+.login-form input,
+.resetpass-form input,
+.changepass-form input {
+	border: 1px solid #009163;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	height: 40px;
+}
+
+.login-form input:focus,
+.resetpass-form input:focus,
+.changepass-form input:focus {
+	outline-color: #009163;
+}
+
+.login-form button,
+.resetpass-form button,
+.changepass-form button {
+	border: none;
+	background-color: #009163;
+	color: #fff;
+	padding: 10px;
+	width: 100%;
+	height: 40px;
+	line-height: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.login-form button:focus,
+.resetpass-form button:focus,
+.changepass-form button:focus {
+	outline: none;
+}
+
+.login-form button:hover,
+.resetpass-form button:hover,
+.changepass-form button:hover {
+	background-color: #00704a;
+}
+
+.login-form button[disabled],
+.resetpass-form button[disabled],
+.changepass-form button[disabled] {
+	background-color: #ddd;
+	cursor: no-drop;
+}
+
+.login-form button .fa,
+.resetpass-form button .fa,
+.changepass-form button .fa {
+	font-size: 20px;
+    margin-right: 10px;
+}
+
+.forget-pass {
+	text-align: right;
+	width: 100%;
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+}
+
+.forget-pass:hover {
+	text-decoration: underline;
+}
+
+.g-recaptcha {
+	width: 304px;
+	margin: 0 auto 10px;
+}
+
+#changepass-tips {
+	padding: 0 20px 20px 20px;
+	display: none;
+}
+
+#changepass-tips li,
+#changepass-tips p {
+	list-style: square;
+	line-height: 25px;
+	font-size: 14px;
+	color: #515151;
+}
+
+/*Loading
+===========================================*/
+.loading {
+	background-image: url( /images/icons/loading.svg );
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25px;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-top: -10px;
+	margin-left: 30px;
+	position:absolute;
+	left: 0;
+}

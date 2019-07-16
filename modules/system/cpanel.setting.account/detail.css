@@ -1,0 +1,56 @@
+.tables td {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+span[class ^= state ] {
+	padding: 6px 10px;
+	font-size: 14px;
+	color: #ffffff;
+}
+.state1 {
+	background-color: #92fca5;
+}
+
+.state2 {
+	background-color: #02d140;
+}
+
+.state3 {
+	background-color: #4ca9e8;
+}
+
+.state4 {
+	background-color: #008402;
+}
+
+.state5 {
+	background-color: #888888;
+}
+
+.state6 {
+	background-color: #D32A00;
+}
+
+.comment td:first-child,
+.comment td:last-child {
+	width: 15%;
+}
+
+.comment td:nth-child(2) {
+	 -o-text-overflow: ellipsis;   /* Opera */
+    text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+    overflow:hidden;              /* don't show excess chars */
+    white-space:nowrap;           /* force single line */
+}
+
+.visit td:first-child {
+	width: 20%;
+}
+
+a {
+	color: #515151;
+}

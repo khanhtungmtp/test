@@ -1,0 +1,34 @@
+tables td {
+	word-wrap:break-word;
+	white-space: pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+}
+
+.module-addnew-btn {
+	float: right;
+}
+
+.form-tables {
+	clear: both;
+}
+
+.form-tables td:first-child {
+    width: 40%;
+}
+
+.buttons {
+	margin-right: 20px;
+}
+
+.point-change-input {
+	padding-right: 40px;
+}
+
+.minimum-input {
+	padding-right: 50px;
+}
+
+.product-input {
+	padding-right: 90px;
+}
